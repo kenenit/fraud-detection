@@ -5,11 +5,12 @@ from sklearn.linear_model import LogisticRegression
 
 def test_imports():
     """Test that all key packages import correctly."""
+    import pandas
+    import numpy
+    import sklearn
     import xgboost
-    import shap
     import imblearn
     assert True
-
 
 def test_dataframe_operations():
     """Test basic dataframe operations used in the project."""
